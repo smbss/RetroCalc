@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,12 +22,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="5vk-K3-kdK">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="TUd-Bt-0Ht"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="Q22-92-xMk">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="79" id="Ej6-Sw-vuM"/>
-                                    <constraint firstAttribute="width" constant="272" id="hhl-Dc-Sca"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="0ew-cD-VoD">
@@ -166,7 +159,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-0U-nDS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="Q22-92-xMk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="Ej6-Sw-vuM"/>
+                                    <constraint firstAttribute="width" constant="272" id="hhl-Dc-Sca"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2500" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-0U-nDS">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="249" id="64t-C5-zjL"/>
                                     <constraint firstAttribute="height" constant="21" id="fLo-IK-rDn"/>
@@ -179,7 +178,6 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pv7-8W-XcF" secondAttribute="bottom" id="2u7-QA-xXV"/>
-                            <constraint firstItem="0ew-cD-VoD" firstAttribute="top" secondItem="aoZ-0U-nDS" secondAttribute="bottom" constant="28" id="4bk-Xa-ezJ"/>
                             <constraint firstAttribute="trailing" secondItem="5vk-K3-kdK" secondAttribute="trailing" id="ClU-Um-6Tr"/>
                             <constraint firstItem="5vk-K3-kdK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ISY-rj-BIU"/>
                             <constraint firstItem="aoZ-0U-nDS" firstAttribute="centerY" secondItem="Q22-92-xMk" secondAttribute="centerY" id="Ih1-zo-3Xo"/>
@@ -187,8 +185,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5vk-K3-kdK" secondAttribute="bottom" id="MF3-gW-bhb"/>
                             <constraint firstItem="aoZ-0U-nDS" firstAttribute="centerX" secondItem="Q22-92-xMk" secondAttribute="centerX" id="TMc-0b-8c2"/>
                             <constraint firstAttribute="trailing" secondItem="pv7-8W-XcF" secondAttribute="trailing" id="UkZ-s2-dPl"/>
+                            <constraint firstItem="0ew-cD-VoD" firstAttribute="top" secondItem="Q22-92-xMk" secondAttribute="bottom" constant="3" id="VnL-FX-QjC"/>
+                            <constraint firstItem="0ew-cD-VoD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="40" id="Xcr-Ca-sbh"/>
                             <constraint firstItem="Q22-92-xMk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hmD-yI-oEF"/>
-                            <constraint firstItem="Q22-92-xMk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="jkM-tr-YN6"/>
                             <constraint firstItem="0ew-cD-VoD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lOF-p1-s78"/>
                             <constraint firstItem="g01-0I-Z19" firstAttribute="centerX" secondItem="0ew-cD-VoD" secondAttribute="centerX" id="mAT-qc-Itq"/>
                             <constraint firstItem="g01-0I-Z19" firstAttribute="centerY" secondItem="0ew-cD-VoD" secondAttribute="centerY" id="nNd-Hi-fuB"/>
