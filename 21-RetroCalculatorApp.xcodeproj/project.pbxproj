@@ -12,6 +12,8 @@
 		AA87AA741D733C94007B8FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA87AA721D733C94007B8FBA /* Main.storyboard */; };
 		AA87AA761D733C94007B8FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA87AA751D733C94007B8FBA /* Assets.xcassets */; };
 		AA87AA791D733C94007B8FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA87AA771D733C94007B8FBA /* LaunchScreen.storyboard */; };
+		AA87AA811D73741C007B8FBA /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA87AA801D73741C007B8FBA /* Minecraft.ttf */; };
+		AA87AA831D737926007B8FBA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA87AA821D737926007B8FBA /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AA87AA751D733C94007B8FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA87AA781D733C94007B8FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA87AA7A1D733C94007B8FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA87AA801D73741C007B8FBA /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		AA87AA821D737926007B8FBA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		AA87AA6D1D733C94007B8FBA /* 21-RetroCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				AA87AA801D73741C007B8FBA /* Minecraft.ttf */,
+				AA87AA821D737926007B8FBA /* btn.wav */,
 				AA87AA6E1D733C94007B8FBA /* AppDelegate.swift */,
 				AA87AA701D733C94007B8FBA /* ViewController.swift */,
 				AA87AA721D733C94007B8FBA /* Main.storyboard */,
@@ -127,6 +133,8 @@
 			files = (
 				AA87AA791D733C94007B8FBA /* LaunchScreen.storyboard in Resources */,
 				AA87AA761D733C94007B8FBA /* Assets.xcassets in Resources */,
+				AA87AA831D737926007B8FBA /* btn.wav in Resources */,
+				AA87AA811D73741C007B8FBA /* Minecraft.ttf in Resources */,
 				AA87AA741D733C94007B8FBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
