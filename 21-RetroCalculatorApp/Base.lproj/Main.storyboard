@@ -41,8 +41,8 @@
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jF5-xt-55w">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="01V-q2-eyJ"/>
-                                                    <constraint firstAttribute="height" constant="65" id="EbF-fb-6iu"/>
+                                                    <constraint firstAttribute="width" constant="50" id="CGq-7W-K31"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Qks-Eq-0pe"/>
                                                 </constraints>
                                                 <state key="normal" image="7"/>
                                                 <connections>
@@ -51,8 +51,8 @@
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCL-sb-OTQ">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="RVE-if-wXN"/>
-                                                    <constraint firstAttribute="width" constant="65" id="u4l-Ab-m8M"/>
+                                                    <constraint firstAttribute="height" constant="50" id="5RF-MK-kzY"/>
+                                                    <constraint firstAttribute="width" constant="50" id="7pJ-do-OGf"/>
                                                 </constraints>
                                                 <state key="normal" image="8"/>
                                                 <connections>
@@ -61,8 +61,8 @@
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1i-kl-UPJ">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="MYG-3I-BDC"/>
-                                                    <constraint firstAttribute="height" constant="65" id="uGZ-xl-Smu"/>
+                                                    <constraint firstAttribute="height" constant="50" id="tp3-cX-1e2"/>
+                                                    <constraint firstAttribute="width" constant="50" id="xld-YS-13K"/>
                                                 </constraints>
                                                 <state key="normal" image="9"/>
                                                 <connections>
@@ -75,8 +75,8 @@
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWA-91-3wJ">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="IPc-f4-Mzj"/>
-                                                    <constraint firstAttribute="height" constant="65" id="aRL-Nx-4oZ"/>
+                                                    <constraint firstAttribute="height" constant="50" id="aDt-Hc-hZj"/>
+                                                    <constraint firstAttribute="width" constant="50" id="oHb-1a-RCw"/>
                                                 </constraints>
                                                 <state key="normal" image="4"/>
                                                 <connections>
@@ -85,8 +85,8 @@
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okd-YN-p2Q">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="Wmr-AJ-vXi"/>
-                                                    <constraint firstAttribute="height" constant="65" id="s2a-8u-wzt"/>
+                                                    <constraint firstAttribute="height" constant="50" id="A3X-2I-YlA"/>
+                                                    <constraint firstAttribute="width" constant="50" id="bZ3-2P-d7R"/>
                                                 </constraints>
                                                 <state key="normal" image="5"/>
                                                 <connections>
@@ -95,8 +95,8 @@
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcD-0I-Uin">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="8Jx-da-9hZ"/>
-                                                    <constraint firstAttribute="width" constant="65" id="91d-5T-adv"/>
+                                                    <constraint firstAttribute="height" constant="50" id="VqW-zz-S4G"/>
+                                                    <constraint firstAttribute="width" constant="50" id="m4d-Uj-4Fb"/>
                                                 </constraints>
                                                 <state key="normal" image="6"/>
                                                 <connections>
@@ -109,8 +109,8 @@
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaJ-oi-W1n">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="1rA-n4-23j"/>
-                                                    <constraint firstAttribute="width" constant="65" id="EtR-Ll-Iax"/>
+                                                    <constraint firstAttribute="width" constant="50" id="3tl-Q8-nrI"/>
+                                                    <constraint firstAttribute="height" constant="50" id="LSr-PB-UrS"/>
                                                 </constraints>
                                                 <state key="normal" image="1"/>
                                                 <connections>
@@ -119,8 +119,8 @@
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgf-f2-T6K">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="mZt-TR-7aQ"/>
-                                                    <constraint firstAttribute="height" constant="65" id="zvO-Ji-gKq"/>
+                                                    <constraint firstAttribute="height" constant="50" id="l6I-it-FTj"/>
+                                                    <constraint firstAttribute="width" constant="50" id="qUC-xH-Qtr"/>
                                                 </constraints>
                                                 <state key="normal" image="2"/>
                                                 <connections>
@@ -129,8 +129,8 @@
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTc-rv-Hez">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="Xyh-4u-n14"/>
-                                                    <constraint firstAttribute="height" constant="65" id="fy8-1n-2Mx"/>
+                                                    <constraint firstAttribute="height" constant="50" id="j3d-so-HgA"/>
+                                                    <constraint firstAttribute="width" constant="50" id="xfh-p4-evi"/>
                                                 </constraints>
                                                 <state key="normal" image="3"/>
                                                 <connections>
@@ -143,8 +143,8 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nx6-Ez-xNV">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="Q1A-Yq-v9N"/>
-                                                    <constraint firstAttribute="width" constant="65" id="Ver-kr-hbD"/>
+                                                    <constraint firstAttribute="width" constant="50" id="Ex1-gN-qhy"/>
+                                                    <constraint firstAttribute="height" constant="50" id="T55-bw-G3a"/>
                                                 </constraints>
                                                 <state key="normal" image="0"/>
                                                 <connections>
@@ -153,8 +153,8 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cP-iI-6WU">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="Len-zA-4EK"/>
-                                                    <constraint firstAttribute="height" constant="65" id="krA-mx-5vg"/>
+                                                    <constraint firstAttribute="height" constant="50" id="DfP-vV-3tN"/>
+                                                    <constraint firstAttribute="width" constant="50" id="dZV-1D-F6Z"/>
                                                 </constraints>
                                                 <state key="normal" image="divide"/>
                                                 <connections>
@@ -163,8 +163,8 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKd-DD-IDU">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="Jdu-sv-FXq"/>
-                                                    <constraint firstAttribute="width" constant="65" id="WQ9-VU-vWa"/>
+                                                    <constraint firstAttribute="width" constant="50" id="hWe-D9-fiz"/>
+                                                    <constraint firstAttribute="height" constant="50" id="kty-Db-6yf"/>
                                                 </constraints>
                                                 <state key="normal" image="multiply"/>
                                                 <connections>
@@ -177,8 +177,8 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxA-on-wVZ">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="2xu-eS-KSd"/>
-                                                    <constraint firstAttribute="width" constant="65" id="ibP-Cl-toB"/>
+                                                    <constraint firstAttribute="width" constant="50" id="cN3-iT-8Ol"/>
+                                                    <constraint firstAttribute="height" constant="50" id="i4Z-Wt-c4L"/>
                                                 </constraints>
                                                 <state key="normal" image="subtract"/>
                                                 <connections>
@@ -187,8 +187,8 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of9-Nc-6aj">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="65" id="8JV-CQ-Fvs"/>
-                                                    <constraint firstAttribute="height" constant="65" id="z3k-fS-6ZI"/>
+                                                    <constraint firstAttribute="height" constant="50" id="8Xu-PM-zuh"/>
+                                                    <constraint firstAttribute="width" constant="50" id="pQJ-hO-XOg"/>
                                                 </constraints>
                                                 <state key="normal" image="add"/>
                                                 <connections>
@@ -197,12 +197,26 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mA6-bE-26e">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="0ke-WM-iR0"/>
-                                                    <constraint firstAttribute="width" constant="65" id="j8B-SK-DrI"/>
+                                                    <constraint firstAttribute="width" constant="50" id="0yo-Tl-uFf"/>
+                                                    <constraint firstAttribute="height" constant="50" id="xlw-ni-67D"/>
                                                 </constraints>
                                                 <state key="normal" image="equal"/>
                                                 <connections>
                                                     <action selector="onEqualPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jo9-xk-9xr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g98-WA-rdt">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFe-KO-kFG">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="9P1-o4-eKW"/>
+                                                    <constraint firstAttribute="height" constant="50" id="zex-bR-pyr"/>
+                                                </constraints>
+                                                <state key="normal" image="clear"/>
+                                                <connections>
+                                                    <action selector="onSubtractionPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9Z-iG-kQM"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -266,6 +280,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
