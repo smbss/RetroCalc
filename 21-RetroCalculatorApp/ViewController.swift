@@ -53,35 +53,58 @@ class ViewController: UIViewController {
         }
         
         outputLbl.text = "0"
-    
     }
     
         // Created the action for the pressed button (connected to each number)
     @IBAction func numberPressed(sender: UIButton) {
         playSound()
         
+        if result != "" && currentOperation == .Empty {
+            clear()
+        }
+        
         runningNumber += "\(sender.tag)"
         outputLbl.text = runningNumber
     }
     
     @IBAction func onDividePressed(sender: AnyObject) {
-        processOperation(operation: .Divide)
+        if result != "" {
+            currentOperation = .Divide
+        } else {
+            processOperation(operation: .Divide)
+        }
     }
     
     @IBAction func onMultiply(sender: AnyObject) {
-        processOperation(operation: .Multiply)
+        if result != "" {
+            currentOperation = .Multiply
+        } else {
+            processOperation(operation: .Multiply)
+        }
     }
     
     @IBAction func onSubtractionPressed(sender: AnyObject) {
-        processOperation(operation: .Subtract)
+        if result != "" {
+            currentOperation = .Subtract
+        } else {
+            processOperation(operation: .Subtract)
+        }
     }
     
     @IBAction func onAddPressed(sender: AnyObject) {
-        processOperation(operation: .Add)
+        if result != "" {
+            currentOperation = .Add
+        } else {
+            processOperation(operation: .Add)
+        }
     }
     
     @IBAction func onEqualPressed(sender: AnyObject) {
         processOperation(operation: currentOperation)
+    }
+    
+    @IBAction func clear(sender: AnyObject) {
+        clear()
     }
     
     func playSound() {
@@ -117,13 +140,22 @@ class ViewController: UIViewController {
                 leftValStr = result
                 outputLbl.text = result
             }
-            currentOperation = operation
+            currentOperation = .Empty
         } else {
             // This is the first time an operator has been pressed
             leftValStr = runningNumber
             runningNumber = ""
             currentOperation = operation
         }
+    }
+    
+    func clear() {
+        outputLbl.text = "0"
+        currentOperation = Operation.Empty
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        result = ""
     }
 
 }

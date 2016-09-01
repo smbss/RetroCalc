@@ -216,7 +216,7 @@
                                                 </constraints>
                                                 <state key="normal" image="clear"/>
                                                 <connections>
-                                                    <action selector="onSubtractionPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9Z-iG-kQM"/>
+                                                    <action selector="clearWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mT4-3z-UaE"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -229,12 +229,12 @@
                                     <constraint firstAttribute="width" constant="272" id="hhl-Dc-Sca"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-0U-nDS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-0U-nDS">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="249" id="64t-C5-zjL"/>
-                                    <constraint firstAttribute="height" constant="21" id="fLo-IK-rDn"/>
+                                    <constraint firstAttribute="height" constant="40" id="fLo-IK-rDn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -244,7 +244,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pv7-8W-XcF" secondAttribute="bottom" id="2u7-QA-xXV"/>
                             <constraint firstAttribute="trailing" secondItem="5vk-K3-kdK" secondAttribute="trailing" id="ClU-Um-6Tr"/>
                             <constraint firstItem="5vk-K3-kdK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ISY-rj-BIU"/>
-                            <constraint firstItem="aoZ-0U-nDS" firstAttribute="centerY" secondItem="Q22-92-xMk" secondAttribute="centerY" id="Ih1-zo-3Xo"/>
+                            <constraint firstItem="aoZ-0U-nDS" firstAttribute="centerY" secondItem="Q22-92-xMk" secondAttribute="centerY" constant="5" id="Ih1-zo-3Xo"/>
                             <constraint firstItem="pv7-8W-XcF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="JoC-dZ-4yb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5vk-K3-kdK" secondAttribute="bottom" id="MF3-gW-bhb"/>
                             <constraint firstItem="aoZ-0U-nDS" firstAttribute="centerX" secondItem="Q22-92-xMk" secondAttribute="centerX" id="TMc-0b-8c2"/>
