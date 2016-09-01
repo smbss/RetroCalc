@@ -68,6 +68,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onDividePressed(sender: AnyObject) {
+        playSound()
         if result != "" {
             currentOperation = .Divide
         } else {
@@ -76,6 +77,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onMultiply(sender: AnyObject) {
+        playSound()
         if result != "" {
             currentOperation = .Multiply
         } else {
@@ -84,6 +86,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onSubtractionPressed(sender: AnyObject) {
+        playSound()
         if result != "" {
             currentOperation = .Subtract
         } else {
@@ -92,6 +95,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onAddPressed(sender: AnyObject) {
+        playSound()
         if result != "" {
             currentOperation = .Add
         } else {
@@ -100,6 +104,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onEqualPressed(sender: AnyObject) {
+        playSound()
         processOperation(operation: currentOperation)
     }
     
@@ -115,8 +120,6 @@ class ViewController: UIViewController {
     }
     
     func processOperation(operation: Operation) {
-        playSound()
-        
             // If an operation selected do this:
         if currentOperation != Operation.Empty {
             
