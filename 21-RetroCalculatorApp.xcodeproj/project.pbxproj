@@ -58,16 +58,32 @@
 		AA87AA6D1D733C94007B8FBA /* 21-RetroCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				AA87AA801D73741C007B8FBA /* Minecraft.ttf */,
-				AA87AA821D737926007B8FBA /* btn.wav */,
+				AAD57DFD1DB800B700D5B3C7 /* Controller */,
+				AAD57DFC1DB800A900D5B3C7 /* Resources */,
 				AA87AA6E1D733C94007B8FBA /* AppDelegate.swift */,
-				AA87AA701D733C94007B8FBA /* ViewController.swift */,
-				AA87AA721D733C94007B8FBA /* Main.storyboard */,
 				AA87AA751D733C94007B8FBA /* Assets.xcassets */,
-				AA87AA771D733C94007B8FBA /* LaunchScreen.storyboard */,
 				AA87AA7A1D733C94007B8FBA /* Info.plist */,
+				AA87AA771D733C94007B8FBA /* LaunchScreen.storyboard */,
+				AA87AA721D733C94007B8FBA /* Main.storyboard */,
 			);
 			path = "21-RetroCalculatorApp";
+			sourceTree = "<group>";
+		};
+		AAD57DFC1DB800A900D5B3C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA87AA801D73741C007B8FBA /* Minecraft.ttf */,
+				AA87AA821D737926007B8FBA /* btn.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAD57DFD1DB800B700D5B3C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA87AA701D733C94007B8FBA /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +118,7 @@
 				TargetAttributes = {
 					AA87AA6A1D733C94007B8FBA = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BCUP3M7P3C;
+						DevelopmentTeam = WN5533YL4C;
 						DevelopmentTeamName = "Sandro Simes (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
@@ -160,6 +176,7 @@
 				AA87AA731D733C94007B8FBA /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		AA87AA771D733C94007B8FBA /* LaunchScreen.storyboard */ = {
@@ -168,6 +185,7 @@
 				AA87AA781D733C94007B8FBA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -266,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN5533YL4C;
 				INFOPLIST_FILE = "21-RetroCalculatorApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -279,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN5533YL4C;
 				INFOPLIST_FILE = "21-RetroCalculatorApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

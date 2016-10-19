@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  21-RetroCalculatorApp
 //
-//  Created by Sandro Simes on 28/08/16.
-//  Copyright © 2016 SandroSimes. All rights reserved.
+//  Created by smbss on 28/08/16.
+//  Copyright © 2016 smbss. All rights reserved.
 //
 
 import UIKit
@@ -18,18 +18,18 @@ class ViewController: UIViewController {
     var btnSound: AVAudioPlayer!
     
     enum Operation: String {
-        case Divide = "/"
-        case Multiply = "*"
-        case Subtract = "-"
-        case Add = "+"
-        case Empty = "Empty"
+        case Divide
+        case Multiply
+        case Subtract
+        case Add
+        case Empty
     }
     
         // Initially there will be no current operation
     var currentOperation = Operation.Empty
         // The string that will be used to save the current number
     var runningNumber = ""
-        // Splitting the string with the left and right side of the operator
+        // Vars used to split the string on left and right side of the operator
     var leftValStr = ""
     var rightValStr = ""
         // String used to display the result
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
             // Getting the path for the sound
-        let path = Bundle.main.pathForResource("btn", ofType: "wav")
+        let path = Bundle.main.path(forResource: "btn", ofType: "wav")
             // Converting path (String) to an url
         let soundURL = URL(fileURLWithPath: path!)
         
@@ -52,6 +52,7 @@ class ViewController: UIViewController {
             print(err.debugDescription) // Printing the error in case it fails
         }
         
+            // Setting the innitial string to 0
         outputLbl.text = "0"
     }
     
@@ -59,48 +60,34 @@ class ViewController: UIViewController {
     @IBAction func numberPressed(sender: UIButton) {
         playSound()
         
+            // Cleaning the result for a new calc if the input is not an operator
         if result != "" && currentOperation == .Empty {
             clear()
         }
         
+            // Building the string that displays the current number
         runningNumber += "\(sender.tag)"
         outputLbl.text = runningNumber
     }
     
     @IBAction func onDividePressed(sender: AnyObject) {
         playSound()
-        if result != "" {
-            currentOperation = .Divide
-        } else {
-            processOperation(operation: .Divide)
-        }
+        decideToContinue(operation: .Divide)
     }
     
     @IBAction func onMultiply(sender: AnyObject) {
         playSound()
-        if result != "" {
-            currentOperation = .Multiply
-        } else {
-            processOperation(operation: .Multiply)
-        }
+        decideToContinue(operation: .Multiply)
     }
     
     @IBAction func onSubtractionPressed(sender: AnyObject) {
         playSound()
-        if result != "" {
-            currentOperation = .Subtract
-        } else {
-            processOperation(operation: .Subtract)
-        }
+        decideToContinue(operation: .Subtract)
     }
     
     @IBAction func onAddPressed(sender: AnyObject) {
         playSound()
-        if result != "" {
-            currentOperation = .Add
-        } else {
-            processOperation(operation: .Add)
-        }
+        decideToContinue(operation: .Add)
     }
     
     @IBAction func onEqualPressed(sender: AnyObject) {
@@ -112,6 +99,15 @@ class ViewController: UIViewController {
         clear()
     }
     
+    func decideToContinue(operation: Operation) {
+        if result != "" {
+                // If there is already a result continue the operation
+            currentOperation = operation
+        } else {
+            processOperation(operation: operation)
+        }
+    }
+    
     func playSound() {
         if btnSound.isPlaying {
             btnSound.stop()
@@ -120,16 +116,14 @@ class ViewController: UIViewController {
     }
     
     func processOperation(operation: Operation) {
-            // If an operation selected do this:
         if currentOperation != Operation.Empty {
-            
-            //A user selected an operator, but then selected another operator without first entering a number
             
                 // Verifying that the runningNumber has a value and resetting it
             if runningNumber != "" {
                 rightValStr = runningNumber
                 runningNumber = ""
                 
+                if leftValStr != "" && rightValStr != "" {
                     // Converting the strings to doubles and doing the operation for each case
                 if currentOperation == Operation.Multiply {
                     result = "\(Double(leftValStr)! * Double(rightValStr)!)"
@@ -140,12 +134,14 @@ class ViewController: UIViewController {
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValStr)! + Double(rightValStr)!)"
                 }
-                leftValStr = result
                 outputLbl.text = result
+                    // Passing the result to leftValStr in case the operation continues
+                leftValStr = result
+                }
             }
             currentOperation = .Empty
         } else {
-            // This is the first time an operator has been pressed
+                // This happens when operators are selected twice without number input
             leftValStr = runningNumber
             runningNumber = ""
             currentOperation = operation
@@ -160,5 +156,4 @@ class ViewController: UIViewController {
         rightValStr = ""
         result = ""
     }
-
 }

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  21-RetroCalculatorApp
 //
-//  Created by Sandro Simes on 28/08/16.
-//  Copyright © 2016 SandroSimes. All rights reserved.
+//  Created by smbss on 28/08/16.
+//  Copyright © 2016 smbss. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
