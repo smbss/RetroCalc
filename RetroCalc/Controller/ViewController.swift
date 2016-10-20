@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  RetroCalculatorApp
+//  RetroCalc
 //
 //  Created by smbss on 28/08/16.
 //  Copyright © 2016 smbss. All rights reserved.
@@ -10,6 +10,11 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
+    
+        // Hiding network signal, clock and battery status
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
         // Creating the label to display the result
     @IBOutlet weak var outputLbl: UILabel!
