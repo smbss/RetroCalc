@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:21-RetroCalculatorApp.xcodeproj">
+      location = "self:/Users/Sandro/Desktop/Github/RetroCalculator/RetroCalc.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  21-RetroCalculatorApp
+//  RetroCalculatorApp
 //
 //  Created by smbss on 28/08/16.
 //  Copyright © 2016 smbss. All rights reserved.

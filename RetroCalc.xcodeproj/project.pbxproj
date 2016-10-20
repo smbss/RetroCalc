@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA87AA6B1D733C94007B8FBA /* 21-RetroCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21-RetroCalculatorApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA87AA6B1D733C94007B8FBA /* RetroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA87AA6E1D733C94007B8FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA87AA701D733C94007B8FBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA87AA731D733C94007B8FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		AA87AA621D733C94007B8FBA = {
 			isa = PBXGroup;
 			children = (
-				AA87AA6D1D733C94007B8FBA /* 21-RetroCalculatorApp */,
+				AA87AA6D1D733C94007B8FBA /* RetroCalc */,
 				AA87AA6C1D733C94007B8FBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		AA87AA6C1D733C94007B8FBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA87AA6B1D733C94007B8FBA /* 21-RetroCalculatorApp.app */,
+				AA87AA6B1D733C94007B8FBA /* RetroCalc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA87AA6D1D733C94007B8FBA /* 21-RetroCalculatorApp */ = {
+		AA87AA6D1D733C94007B8FBA /* RetroCalc */ = {
 			isa = PBXGroup;
 			children = (
 				AAD57DFD1DB800B700D5B3C7 /* Controller */,
@@ -66,7 +66,7 @@
 				AA87AA771D733C94007B8FBA /* LaunchScreen.storyboard */,
 				AA87AA721D733C94007B8FBA /* Main.storyboard */,
 			);
-			path = "21-RetroCalculatorApp";
+			path = RetroCalc;
 			sourceTree = "<group>";
 		};
 		AAD57DFC1DB800A900D5B3C7 /* Resources */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA87AA6A1D733C94007B8FBA /* 21-RetroCalculatorApp */ = {
+		AA87AA6A1D733C94007B8FBA /* RetroCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA87AA7D1D733C94007B8FBA /* Build configuration list for PBXNativeTarget "21-RetroCalculatorApp" */;
+			buildConfigurationList = AA87AA7D1D733C94007B8FBA /* Build configuration list for PBXNativeTarget "RetroCalc" */;
 			buildPhases = (
 				AA87AA671D733C94007B8FBA /* Sources */,
 				AA87AA681D733C94007B8FBA /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = "21-RetroCalculatorApp";
+			name = RetroCalc;
 			productName = "21-RetroCalculatorApp";
-			productReference = AA87AA6B1D733C94007B8FBA /* 21-RetroCalculatorApp.app */;
+			productReference = AA87AA6B1D733C94007B8FBA /* RetroCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA87AA661D733C94007B8FBA /* Build configuration list for PBXProject "21-RetroCalculatorApp" */;
+			buildConfigurationList = AA87AA661D733C94007B8FBA /* Build configuration list for PBXProject "RetroCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA87AA6A1D733C94007B8FBA /* 21-RetroCalculatorApp */,
+				AA87AA6A1D733C94007B8FBA /* RetroCalc */,
 			);
 		};
 /* End PBXProject section */
@@ -285,10 +285,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN5533YL4C;
-				INFOPLIST_FILE = "21-RetroCalculatorApp/Info.plist";
+				INFOPLIST_FILE = RetroCalc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sandrosimes.-1-RetroCalculatorApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandrosimes.RetroCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,10 +299,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN5533YL4C;
-				INFOPLIST_FILE = "21-RetroCalculatorApp/Info.plist";
+				INFOPLIST_FILE = RetroCalc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sandrosimes.-1-RetroCalculatorApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandrosimes.RetroCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA87AA661D733C94007B8FBA /* Build configuration list for PBXProject "21-RetroCalculatorApp" */ = {
+		AA87AA661D733C94007B8FBA /* Build configuration list for PBXProject "RetroCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA87AA7B1D733C94007B8FBA /* Debug */,
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA87AA7D1D733C94007B8FBA /* Build configuration list for PBXNativeTarget "21-RetroCalculatorApp" */ = {
+		AA87AA7D1D733C94007B8FBA /* Build configuration list for PBXNativeTarget "RetroCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA87AA7E1D733C94007B8FBA /* Debug */,
